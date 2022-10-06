@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="..\..\..\..\Documents\Tehtäviä\Noppapelik.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="..\..\..\..\Documents\Tehtäviä\Noppapelik.Designer.cs">
+      <DependentUpon>Noppapelik.cs</DependentUpon>
     </Compile>
     <Compile Include="Noppa.cs" />
     <Compile Include="NoppaPictures.Designer.cs">
@@ -60,8 +60,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="..\..\..\..\Documents\Tehtäviä\Noppapelik.resx">
+      <DependentUpon>Noppapelik.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NoppaPictures.resx">
       <Generator>ResXFileCodeGenerator</Generator>

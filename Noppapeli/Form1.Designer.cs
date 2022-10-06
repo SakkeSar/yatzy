@@ -243,6 +243,7 @@ namespace Noppapeli
             this.buttonOnes.Size = new System.Drawing.Size(59, 32);
             this.buttonOnes.TabIndex = 17;
             this.buttonOnes.UseVisualStyleBackColor = true;
+            this.buttonOnes.Click += new System.EventHandler(this.buttonOnes_Click);
             // 
             // buttonTwos
             // 
@@ -252,6 +253,7 @@ namespace Noppapeli
             this.buttonTwos.Size = new System.Drawing.Size(59, 32);
             this.buttonTwos.TabIndex = 18;
             this.buttonTwos.UseVisualStyleBackColor = true;
+            this.buttonTwos.Click += new System.EventHandler(this.buttonTwos_Click);
             // 
             // buttonFours
             // 
@@ -261,6 +263,7 @@ namespace Noppapeli
             this.buttonFours.Size = new System.Drawing.Size(59, 32);
             this.buttonFours.TabIndex = 20;
             this.buttonFours.UseVisualStyleBackColor = true;
+            this.buttonFours.Click += new System.EventHandler(this.buttonFours_Click);
             // 
             // buttonThrees
             // 
@@ -270,6 +273,7 @@ namespace Noppapeli
             this.buttonThrees.Size = new System.Drawing.Size(59, 32);
             this.buttonThrees.TabIndex = 19;
             this.buttonThrees.UseVisualStyleBackColor = true;
+            this.buttonThrees.Click += new System.EventHandler(this.buttonThrees_Click);
             // 
             // buttonSixes
             // 
@@ -279,6 +283,7 @@ namespace Noppapeli
             this.buttonSixes.Size = new System.Drawing.Size(59, 32);
             this.buttonSixes.TabIndex = 22;
             this.buttonSixes.UseVisualStyleBackColor = true;
+            this.buttonSixes.Click += new System.EventHandler(this.buttonSixes_Click);
             // 
             // buttonFives
             // 
@@ -288,6 +293,7 @@ namespace Noppapeli
             this.buttonFives.Size = new System.Drawing.Size(59, 32);
             this.buttonFives.TabIndex = 21;
             this.buttonFives.UseVisualStyleBackColor = true;
+            this.buttonFives.Click += new System.EventHandler(this.buttonFives_Click);
             // 
             // buttonLargeStraight
             // 
@@ -297,6 +303,7 @@ namespace Noppapeli
             this.buttonLargeStraight.Size = new System.Drawing.Size(59, 32);
             this.buttonLargeStraight.TabIndex = 28;
             this.buttonLargeStraight.UseVisualStyleBackColor = true;
+            this.buttonLargeStraight.Click += new System.EventHandler(this.buttonLargeStraight_Click);
             // 
             // buttonSmallStraight
             // 
@@ -306,6 +313,7 @@ namespace Noppapeli
             this.buttonSmallStraight.Size = new System.Drawing.Size(59, 32);
             this.buttonSmallStraight.TabIndex = 27;
             this.buttonSmallStraight.UseVisualStyleBackColor = true;
+            this.buttonSmallStraight.Click += new System.EventHandler(this.buttonSmallStraight_Click);
             // 
             // button4OfKind
             // 
@@ -315,6 +323,7 @@ namespace Noppapeli
             this.button4OfKind.Size = new System.Drawing.Size(59, 32);
             this.button4OfKind.TabIndex = 26;
             this.button4OfKind.UseVisualStyleBackColor = true;
+            this.button4OfKind.Click += new System.EventHandler(this.button4OfKind_Click);
             // 
             // button3OfKind
             // 
@@ -324,6 +333,7 @@ namespace Noppapeli
             this.button3OfKind.Size = new System.Drawing.Size(59, 32);
             this.button3OfKind.TabIndex = 25;
             this.button3OfKind.UseVisualStyleBackColor = true;
+            this.button3OfKind.Click += new System.EventHandler(this.button3OfKind_Click);
             // 
             // buttonTwoPairs
             // 
@@ -333,6 +343,7 @@ namespace Noppapeli
             this.buttonTwoPairs.Size = new System.Drawing.Size(59, 32);
             this.buttonTwoPairs.TabIndex = 24;
             this.buttonTwoPairs.UseVisualStyleBackColor = true;
+            this.buttonTwoPairs.Click += new System.EventHandler(this.buttonTwoPairs_Click);
             // 
             // buttonPair
             // 
@@ -342,6 +353,7 @@ namespace Noppapeli
             this.buttonPair.Size = new System.Drawing.Size(59, 32);
             this.buttonPair.TabIndex = 23;
             this.buttonPair.UseVisualStyleBackColor = true;
+            this.buttonPair.Click += new System.EventHandler(this.buttonPair_Click);
             // 
             // buttonYatzy
             // 
@@ -351,6 +363,7 @@ namespace Noppapeli
             this.buttonYatzy.Size = new System.Drawing.Size(59, 32);
             this.buttonYatzy.TabIndex = 31;
             this.buttonYatzy.UseVisualStyleBackColor = true;
+            this.buttonYatzy.Click += new System.EventHandler(this.buttonYatzy_Click);
             // 
             // buttonChance
             // 
@@ -360,6 +373,7 @@ namespace Noppapeli
             this.buttonChance.Size = new System.Drawing.Size(59, 32);
             this.buttonChance.TabIndex = 30;
             this.buttonChance.UseVisualStyleBackColor = true;
+            this.buttonChance.Click += new System.EventHandler(this.buttonChance_Click);
             // 
             // buttonFullHouse
             // 
@@ -369,6 +383,7 @@ namespace Noppapeli
             this.buttonFullHouse.Size = new System.Drawing.Size(59, 32);
             this.buttonFullHouse.TabIndex = 29;
             this.buttonFullHouse.UseVisualStyleBackColor = true;
+            this.buttonFullHouse.Click += new System.EventHandler(this.buttonFullHouse_Click);
             // 
             // buttonSum
             // 
